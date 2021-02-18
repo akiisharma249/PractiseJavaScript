@@ -1,0 +1,220 @@
+body {
+    font-weight: 900;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#color-change {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#color-change, #butnClick, #butnAuto {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#para {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+#quotes-btn {
+    margin-top: 3%;
+}
+
+.li_element {
+    padding-left: 2%;
+    border-left: slategrey;
+    border-style: solid;
+    border-width: 0 0 0 5px;
+    line-height: 2;
+    font-weight: 900;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    text-align: center !important;
+    align-items: center !important;
+    background-color: turquoise;
+    margin: auto auto 3% auto;
+    min-height: 300;
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: 2%;
+    padding-bottom: inherit;
+    color: navy;
+    font-weight: 900;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#messageIn {
+    margin-top: 2%;
+}
+
+#send {
+    display: block;
+    margin: 2% auto;
+}
+
+#messageOut {
+    opacity: 50%;
+    color: seagreen;
+    margin: 5%;
+    height: 80px;
+    background-color: lavenderblush;
+}
+
+.counter {
+    display: flex;
+    height: 25rem;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 5% auto;
+    background-image: url("https://media.istockphoto.com/videos/defocused-particles-background-loop-video-id933201166?s=640x640");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.innerCounter {
+    margin: auto;
+    height: 80%;
+    width: 80%;
+    opacity: 40%;
+    background-color: lavenderblush;
+}
+
+.innerCounter:hover {
+    opacity: 75%;
+}
+
+#counter_text {
+    font-size: 5rem;
+    margin: 2% auto 5% auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#o {
+    font-size: 3.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#lower,  #add {
+    margin: auto 2%;
+}
+
+.bg_section {
+    display: flex;
+    height: 30rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    background-image: url('images/background0.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#backgroundImage {
+    display: flex;
+    height: 70%;
+    width: 70%; 
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: chartreuse;
+    background-image: url("images/img0.jpg");
+    background-repeat: no-repeat;
+    background-size: 100.1% 100.1%;
+    box-shadow: 3px 3px grey  ;
+}
+
+#prev {
+    margin-right: auto;
+}
+
+#next {
+    margin-left: auto;
+}
+
+#calculatorSection {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+#calculator {
+    width: 35%;
+    height: 100%;
+    font-size: 1.5rem !important;
+    font-weight:bolder;
+}
+
+.rows {
+    display: flex;
+    height: 40px;
+}
+
+.resultRow {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding-left: 2%;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDKwZPVABRTYZeQorB8GBUDl4ri83FmOqQ4g&usqp=CAU'); */
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.rowClear {
+    justify-content: left;
+}
+
+.operator {
+    width: 25%;
+}
+
+.operator:hover {
+    background-color: lightyellow;
+}
+
+.operand {
+    width: 25%;
+}
+
+.operand:hover {
+    background-color: lightslategray;
+}
+
+.decimalDot {
+    width: 25%;
+}
+
+.decimalDot:hover {
+    background-color: lightslategray;
+}
+
+.equalOperator {
+    width: 25%;
+}
+
+.equalOperator:hover {
+    background-color: lightgreen;
+}
+
+.clearOperator {
+    width: 25%;
+}
+
+.clearOperator:hover {
+    background-color: tomato;
+}

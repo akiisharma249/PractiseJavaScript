@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Practise JavaScript</title>
+</head>
+<body>
+
+    <!-- Color Changing Section -->
+    <button class="btn btn-md btn-dark" id="color-change">Click to change the backgorund color</button>
+    <button class="btn btn-md btn-dark" id="butnClick">Change backgorund color to random Hex Code(Click)</button>
+    <button class="btn btn-md btn-dark" id="butnAuto">Change backgorund color to random Hex Code(Auto)</button>
+    <p id="para">This is a paragraph</p><br>
+
+    <!-- Message Sending Section -->
+    <div class="container">
+        <h1>Write a message you would like to send</h1>
+        <input type="text" maxlength="150" size="53" placeholder="Type your message here but no more than 150 characters." id="messageIn">
+        <button class="btn btn-md btn-danger" id="send">Send Message</button>
+        <h2 id="delivered">Deliver Message</h2>
+        <p id="messageOut"></p>
+    </div>
+
+    <!-- Random Quotes Generating Section -->
+    <ul><span id="ulAuthor">Unordered List</span>
+        <li class="li_element" type="none" id="quote1">Item 1</li>
+        <li class="li_element" type="none" id="quote2">Item 2</li>
+        <button class="btn btn-md btn-danger" id="quotes-btn">Hit to generate random quotes</button>
+    </ul>
+
+    <!-- Counter Section -->
+    <div class="counter">
+        <div class="innerCounter">
+            <h2 class="counterHeading">c<span id="o">o</span>unter</h2>
+            <h1 id="counter_text">0</h1>
+            <button class="btn btn-md btn-danger" id="lower">Lower Count</button>
+            <button class="btn btn-md btn-outline-success" id="add">Add Count</button>
+        </div>
+    </div>
+
+    <!-- Change Background Image Section -->
+    <div class="bg_section">
+        <div id="backgroundImage">
+            <button class="btn btn-md btn-danger" id="prev">Prev</button>
+            <button class="btn btn-md btn-success" id="next">Next</button>
+        </div>
+    </div>
+
+    <!-- Calculator Section -->
+    <div id="calculatorSection">
+        <div id="calculator">
+            <div class="resultRow" id="result1">0</div>
+            <div class="rows">
+                <button id="multiplyOperator" class="btn-warning operator">*</button>
+                <button id="divideOperator" class="btn-warning operator">/</button>
+                <button id="subtractOperator" class="btn-warning operator">-</button>
+                <button id="addOperator" class="btn-warning operator">+</button>
+            </div>
+            <div class="rows">
+                <button id="decimalD" class="btn-dark decimalDot">.</button>
+                <button id="nine9" class="btn-dark operand" data-num="9">9</button>
+                <button id="eight8" class="btn-dark operand" data-num="8">8</button>
+                <button id="seven7" class="btn-dark operand" data-num="7">7</button>
+            </div>
+            <div class="rows">
+                <button id="six6" class="btn-dark operand" data-num="6">6</button>
+                <button id="five5" class="btn-dark operand" data-num="5">5</button>
+                <button id="four4" class="btn-dark operand" data-num="4">4</button>
+                <button id="three3" class="btn-dark operand" data-num="3">3</button>
+            </div>
+            <div class="rows">
+                <button id="two2" class="btn-dark operand" data-num="2">2</button>
+                <button id="one1" class="btn-dark operand" data-num="1">1</button>
+                <button id="zero0" class="btn-dark operand" data-num="0">0</button>
+                <button id="equalsTo" class="btn-success equalOperator">=</button>
+            </div>
+            <div class="rows rowClear">
+                <button id="clearTo" class="btn-danger clearOperator">C</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Project Section -->
+    <div id="end" >
+        <hr>
+        <h1>Thanks for you time and patience.</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
